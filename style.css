@@ -12,9 +12,22 @@ header h2 {
   text-align : center;
   
 }
+a {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+/* Styling my links */
+a:link {color: #0C0C79 ;}
+a:visited{color: #3F2860; }
+a:hover{color: #6B0000; }
+a:active{color: #70003C }
+
 footer {
   margin: 0;
   height: 50px;
+}
+p, li {
+  font-size: 20px;
 }
 body {
   margin: 0;
@@ -24,12 +37,13 @@ body {
 .dark-background {
   background-color : #3F2860; 
   border: width 60px solid #3F2860 ;
-  color : #ACA1BC;
+  color : #D1C6D7;
   
 } 
 .light-background {
-  background-color: #ACA1BC;
-  color: #3F2860
+  background-color: #D1C6D7;
+  color :  #3F2860;
+
   
 }
 /* This wrapper will have all my text in the center but not all sentences centered which would've created gaps */
